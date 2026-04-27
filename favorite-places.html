@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favorite Places</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<button onclick="toggleMode()" class="mode-btn"></button> Toggle Mode</button>
+
+<h1> My Favorite Places</h1>
+
+<p>These are the places I love visiting </p>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="images/nairobi-national-park-main-gate.jpeg">
+        <p>Nairobi National Park</p>
+    </div>
+
+    <div class="card">
+        <img src="images/maasai mara.avif">
+        <p>Maasai Mara</p>
+    </div>
+
+    <div class="card">
+        <img src="images/diani beach.jpeg">
+        <p>Diani Beach</p>
+    </div>
+
+</div>
+
+<br>
+
+<a href="index.html">⬅ Back Home</a>
+
+<script>
+function toggleMode() {
+    document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
